@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+ <link rel="stylesheet" type="text/css" href="/partials/style.css">
+{{>head}}
+
+<body class="container">
+	<div class="row">
+
+		<div class="col-md-6 col-md-offset-3" style="text-align:center;margin-bottom:48px">
+			<h1>Pooling Driver_Back-end Using MongoDB  <br> deployed on Turbo </h1>
+			<hr />
+			<div style="background:#f9f9f9;border:1px solid #ddd;border-radius:3px;padding:12px">
+			
+			<form action="/api/Driver" method="post" > 
+			     <h4> Personal information </h4>
+				<input type="text" name="firstName" placeholder="first name" ><br>
+				<input type="text"  name="lastName"placeholder="last name"><br>
+				<input type="text"  name="Password"placeholder="password"><br>
+				<input type="text" name="Phone" placeholder="phone"><br>
+				<input type="text" name="gender" placeholder="gender"><br>
+				<input type="text" name="age" placeholder="age"><br>
+
+				<h4> Car Features </h4>
+				<input type="text" name="car_modele" placeholder="car_modele"><br>
+				<input type="text" name="car_color" placeholder="car_color"><br>
+				<input type="text" name="car_seats" placeholder="car_seats"><br>
+				<input type="text" name="car_air_conditioning" placeholder="car_air_conditioning"><br>
+				
+				<h4> User Preferances </h4>
+				<input type="text" name="preferred_gender" placeholder="preferred_gender"><br>
+				<input type="text" name="min-age" placeholder="min-age"><br>
+				<input type="text" name="food_allowed" placeholder="food_allowed"><br>
+				<input type="text" name="smoking_allowed" placeholder="smoking_allowed"><br>
+				<input type="text" name="music_allowed" placeholder="music_allowed"><br>
+
+				<h4> Trip information</h4>
+				<input type="text" name="date" placeholder="date"><br>
+				<input type="text" name="price" placeholder="price"><br>
+				<input type="text" name="start_point" placeholder="start_point"><br>
+				<input type="text" name="end_point" placeholder="end_point"><br>
+				<input type="text" name="start_time" placeholder="start_time"><br>
+				<input type="text" name="marge" placeholder="marge"><br>
+				<input type="text" name="available_seat" placeholder="available_seat"><br>
+			    <br/>
+
+				 <input type="submit" value="Add Driver">
+			</form>
+
+
+			</div>
+		</div>	
+	</div>
+
+
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+</body>
+</html>
